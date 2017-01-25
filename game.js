@@ -26,7 +26,6 @@ function makeGreen (evt) {
 // CREATE FUNCTION makeBlue HERE
 
 function makeBlue (evt) {
-  evt.preventDefault()
   evt.target.classList.toggle('blue')
   updateCounts()
 }
@@ -34,7 +33,6 @@ function makeBlue (evt) {
 // CREATE FUNCTION hide HERE
 
 function hide (evt) {
-  evt.preventDefault()
   evt.target.classList.toggle('invisible')
   updateCounts()
 }
